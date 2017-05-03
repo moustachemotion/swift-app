@@ -10,6 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var answerLabel: UILabel!
+    
+    @IBOutlet weak var text1: UITextField!
+    
+    @IBOutlet weak var text2: UITextField!
+    
+    @IBAction func buttonTapped(_ sender: Any) {
+        
+        print(text1)
+        print(text1.text!)
+        print(text2.text!)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
