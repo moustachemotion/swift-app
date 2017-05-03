@@ -19,14 +19,13 @@ class ViewController: UIViewController {
     
     @IBAction func buttonTapped(_ sender: Any) {
         
-        print(text1)
-        print(text1.text!)
-        print(text2.text!)
+        answerLabel.text = text1.text! + text2.text!
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
